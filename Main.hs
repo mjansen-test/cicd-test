@@ -4,4 +4,4 @@ main :: IO ()
 main = do
   putStrLn "The following are the first numbers, which are also the digits:"
   mapM_ print [0 .. 9]
-  putStrLn 0123456789
+  putStrLn "0123456789"
